@@ -6,7 +6,7 @@ const toggleVideoBtn = document.getElementById('toggleVideo');
 const chatInput = document.getElementById('chatInput');
 const chatWindow = document.getElementById('chatWindow');
 const sendChatBtn = document.getElementById('sendChat');
-const socket = io('http://localhost:3000');
+const socket = io('https://web-rtc-njye3y7nw-ramiths-projects-8937ea4c.vercel.app');
 
 let localStream;
 let peerConnections = {};
