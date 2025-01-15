@@ -7,7 +7,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-    origin: '*',  // Or specify your frontend URL here
+    origin: 'https://web-rtc-app-b53q-fq8j5r9lf-ramiths-projects-8937ea4c.vercel.app',  // Or specify your frontend URL here
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
     credentials: true,
